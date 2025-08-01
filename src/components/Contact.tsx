@@ -24,9 +24,14 @@ export const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    toast("Message sent successfully! I'll get back to you soon.");
-    setFormData({ name: '', email: '', subject: '', message: '' });
+
+    const { name, email, subject, message } = formData;
+
+    const mailtoLink = `mailto:anugrah.tribima@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+      `Hi Anugrah,\n\n${message}\n\nRegards,\n${name} (${email})`
+    )}`;
+
+    window.location.href = mailtoLink;
   };
 
   return (
