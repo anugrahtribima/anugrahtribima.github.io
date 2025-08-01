@@ -14,7 +14,7 @@
   "skills": {
     "backend": [
       { "name": "Node.js", "level": 78, "icon": "💚" },
-      { "name": "Laravel", "level": 60, "icon": "🅻" },
+      { "name": "Laravel", "level ": 60, "icon": "🅻" },
       { "name": "Springboot", "level": 40, "icon": "🌱" },
       { "name": "PostgreSQL", "level": 80, "icon": "🐘" },
       { "name": "MySQL", "level": 78, "icon": "🐬" }
