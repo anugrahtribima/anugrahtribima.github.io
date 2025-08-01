@@ -81,8 +81,9 @@ export const Contact = () => {
                 <div>
                   <p className="font-medium text-foreground">Phone</p>
                   <a 
-                    href={`tel:${portfolioData.personal.phone}`}
+                    href={`https://wa.me/${portfolioData.personal.phone.replace(/[\s+-]/g, '')}`}
                     className="text-muted-foreground hover:text-primary transition-colors"
+                    target="_blank"
                   >
                     {portfolioData.personal.phone}
                   </a>
