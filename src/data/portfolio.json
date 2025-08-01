@@ -1,0 +1,112 @@
+{
+  "personal": {
+    "name": "Anugrah Tribima!",
+    "title": "Full-Stack Developer",
+    "subtitle": "Full-Stack Developer",
+    "email": "anugrah.tribima@gmail.com",
+    "phone": "+62 851-2107-1529",
+    "location": "Cileungsi, Kabupaten Bogor, Jawa Barat",
+    "github": "https://github.com/anugrahtribima",
+    "linkedin": "https://linkedin.com/in/anugrah-tribima",
+    "website": "https://anugrahtribima.dev",
+    "bio": "A Fullstack Developer with 2+ years of experience, quick to adapt, and focused on building efficient solutions. Familiar with system integration, server management, and modern architecture. Eager to grow with a dynamic team and continuously learn along the way."
+  },
+  "skills": {
+    "backend": [
+      { "name": "Node.js", "level": 78, "icon": "💚" },
+      { "name": "Laravel", "level": 60, "icon": "🅻" },
+      { "name": "Springboot", "level": 40, "icon": "🌱" },
+      { "name": "PostgreSQL", "level": 80, "icon": "🐘" },
+      { "name": "MySQL", "level": 78, "icon": "🐬" }
+    ],
+    "frontend": [
+      { "name": "React JS", "level": 75, "icon": "⚛️" },
+      { "name": "Vue JS", "level": 70, "icon": "🔷" },
+      { "name": "Bootstrap", "level": 65, "icon": "🅱️" }
+    ],
+    "tools": [
+      { "name": "Git", "level": 80, "icon": "🛠️" },
+      { "name": "Postman", "level": 75, "icon": "📮" },
+      { "name": "VS Code", "level": 95, "icon": "💻" }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Company Profile Website",
+      "company": "CV Teknologi Nusantara",
+      "description": "A responsive company profile website built using React.js and Bootstrap. The site is optimized for basic SEO and designed to provide a clean, accessible interface across devices.",
+      "technologies": ["Node.js", "Express", "Redis", "PostgreSQL", "Docker", "AWS"],
+      "liveUrl": "https://loginusa.id/",
+      "images": ["/src/assets/loginusa/loginusa-page.png"],
+      "featured": false,
+      "category": "Frontend"
+    },
+    {
+      "id": 2,
+      "title": "CEISA 4.0",
+      "company": "Direktorat Jenderal Bea dan Cukai",
+      "description": "Worked on backend development for multiple modules in CEISA 4.0 (Bea Cukai), including the Internal Fund Management and Document Realization modules. Used Java Spring Boot and PostgreSQL in a microservices setup. Contributions included restoring in-house treasury services, developing a scheduler for document blocking processes, and enhancing monitoring APIs. Collaborated regularly with frontend developers and system analysts to ensure smooth implementation, with tasks managed via Jira.",
+      "technologies": ["Springboot", "MyBatis", "PostgreSQL"],
+      "images": ["/src/assets/bc/login-page.png"],
+      "featured": true,
+      "status": "internal",
+      "category": "Backend"
+    },
+    {
+      "id": 3,
+      "title": "Enesis Integarted System",
+      "company": "Enesis Group",
+      "description": "Developed and maintained the Enesis Integrated System (EIS) using Laravel, Vue.js, and Node.js. Handled data integration from SOAP-based services and built support tools for managing EIS master data effectively.",
+      "technologies": ["Vue JS", "React JS", "Laravel", "MySQL", "PostgreSQL", "SQL Server"],
+      "images": ["/src/assets/eis/login-page.png"],
+      "featured": true,
+      "category": "Full-Stack"
+    },
+    {
+      "id": 4,
+      "title": "ETLE Nasional",
+      "company": "Korlantas Polri",
+      "description": "Contributed to the ETLE Nasional project by Korlantas Polri, which centralized regional ETLE systems into a national platform. I was involved in the technical development of supporting systems, such as log processing tools for violation data using Python and SQLite, as well as real-time dashboards to monitor camera and server status. I also collaborated during the integration of Hikvision TP-50 cameras across regions, provided technical support to users, and helped with basic server management tasks when needed.",
+      "technologies": ["React JS", "Node.js", "PHP", "SQLite", "Python", "PostgreSQL", "Nginx"],
+      "images": ["/src/assets/korlantas/login-page.png"],
+      "featured": true,
+      "category": "Backend"
+    },
+    {
+      "id": 4,
+      "title": "Letter Management System",
+      "company": "PT Maha Properti Indonesia Tbk",
+      "description": "A web-based application designed to replace manual, paper-based letter tracking within a company. This system enables digital logging of incoming and outgoing letters, centralized data management through an admin dashboard, and automatic reporting. As the sole developer, I built the entire system from scratch — including database design, backend and frontend development, and deployment to the company’s production server.",
+      "technologies": ["Vue JS", "Laravel", "MySQL"],
+      "images": [
+        "/src/assets/mpro-surat/admin-dashboard.png",
+        "/src/assets/mpro-surat/table-staff.png",
+        "/src/assets/mpro-surat/table-pramubakti.png",
+        "/src/assets/mpro-surat/laporan-staff.png"
+      ],
+      "featured": false,
+      "category": "Backend"
+    }
+  ],
+  "experience": [
+    {
+      "company": "CV Teknologi Nusantara",
+      "position": "Intern Web Developer",
+      "duration": "Feb 2023 - Jul 2023",
+      "description": "Lead backend development for high-traffic applications, mentor junior developers, and architect scalable solutions."
+    },
+    {
+      "company": "PT Agriva Teknologi Nusantara",
+      "position": "Full-Stack Developer",
+      "duration": "Oct 2023 - Oct 2024",
+      "description": "Built the entire tech stack from scratch, implemented CI/CD pipelines, and scaled the platform to handle 1M+ users."
+    },
+    {
+      "company": "PT Otello Kreasi Bersama",
+      "position": "Full-Stack Developer",
+      "duration": "Nov 2024 - Present",
+      "description": "Developed web applications, collaborated with design teams, and learned best practices in software development."
+    }
+  ]
+}
