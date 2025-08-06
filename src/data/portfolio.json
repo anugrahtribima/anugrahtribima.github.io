@@ -93,7 +93,7 @@
       "title": "Cek Fisik Digital",
       "company": "Polres Cimahi - Satlantas",
       "description": "Cek Fisik Digital - PERCIK is a web-based vehicle inspection system built for Polres Cimahi, integrating Redis, OCR for license plate recognition, SRS for CCTV streaming, and VTEQ machines for vehicle diagnostics. As a full-stack developer (Laravel & Vue.js), I improved form printing accuracy, fixed data issues in inspection reports, resolved video player bugs, added image cropping for captured frames, and implemented historical vehicle data reuse. I also integrated log processing from VTEQ machines and optimized system performance for better usability.",
-      "technologies": ["Vue JS", "Laravel", "MySQL"],
+      "technologies": ["Vue JS", "Laravel", "Redist", "SRS", "MySQL"],
       "images": [
         "/assets/percik/dashboard.png",
         "/assets/percik/blangko-preview.png"
