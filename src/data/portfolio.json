@@ -5,7 +5,7 @@
     "subtitle": "Full-Stack Developer",
     "email": "anugrah.tribima@gmail.com",
     "phone": "+62 851-2107-1529",
-    "location": "Kota Administrasi Jakarta Selatan, DKI Jakarta",
+    "location": "Tebet, Jakarta Selatan",
     "github": "https://github.com/anugrahtribima",
     "linkedin": "https://linkedin.com/in/anugrah-tribima",
     "website": "https://anugrahtribima.github.io/",
@@ -14,7 +14,7 @@
   "skills": {
     "backend": [
       { "name": "Node.js", "level": 78, "icon": "💚" },
-      { "name": "Laravel", "level ": 60, "icon": "🅻" },
+      { "name": "Laravel", "level": 60, "icon": "🅻" },
       { "name": "Springboot", "level": 40, "icon": "🌱" },
       { "name": "PostgreSQL", "level": 80, "icon": "🐘" },
       { "name": "MySQL", "level": 78, "icon": "🐬" }
@@ -107,19 +107,19 @@
       "company": "CV Teknologi Nusantara",
       "position": "Intern Web Developer",
       "duration": "Feb 2023 - Jul 2023",
-      "description": "Lead backend development for high-traffic applications, mentor junior developers, and architect scalable solutions."
+      "description": "During my internship, I learned the structure and flow of web-based applications, including how front-end and back-end components integrate in a real-world environment. I also contributed to several internal projects in small parts as part of my learning process."
     },
     {
       "company": "PT Agriva Teknologi Nusantara",
-      "position": "Full-Stack Developer",
+      "position": "Web Developer",
       "duration": "Oct 2023 - Oct 2024",
-      "description": "Built the entire tech stack from scratch, implemented CI/CD pipelines, and scaled the platform to handle 1M+ users."
+      "description": "As a Fullstack Developer, I was responsible for managing large volumes of data and ensuring seamless integration with external systems. I contributed across both backend and frontend, focusing on performance, stability, and efficient data handling in a production environment."
     },
     {
       "company": "PT Otello Kreasi Bersama",
       "position": "Full-Stack Developer",
       "duration": "Nov 2024 - Present",
-      "description": "Developed web applications, collaborated with design teams, and learned best practices in software development."
+      "description": "Contributed to the development and maintenance of a high-traffic system used across various regions in Indonesia. Focused on optimizing data processing and ensuring system stability to support large-scale transactions and continuous data flow."
     }
   ]
 }

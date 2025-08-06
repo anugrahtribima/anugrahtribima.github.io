@@ -36,20 +36,20 @@ export const Contact = () => {
 
   return (
     <section id="contact" className="py-20 px-6">
-      <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+      <div className="max-w-6xl mx-auto px-25">
+        {/* <div className="text-center mb-16 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
             Let's <span className="gradient-accent bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Ready to discuss your next project or explore collaboration opportunities?
           </p>
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid">
           {/* Contact Information */}
           <div className="space-y-8 animate-slide-up">
-            <div>
+            <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-foreground mb-6">Get in Touch</h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 I'm always interested in hearing about new opportunities, 
@@ -58,12 +58,12 @@ export const Contact = () => {
               </p>
             </div>
 
-            <div className="space-y-6">
+            <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:gap-12">
               <div className="flex items-center gap-4 group">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary/30 transition-colors">
                   <Mail className="w-5 h-5 text-primary" />
                 </div>
-                <div>
+                <div className="text-center md:text-left">
                   <p className="font-medium text-foreground">Email</p>
                   <a 
                     href={`mailto:${portfolioData.personal.email}`}
@@ -78,7 +78,7 @@ export const Contact = () => {
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary/30 transition-colors">
                   <Phone className="w-5 h-5 text-primary" />
                 </div>
-                <div>
+                <div className="text-center md:text-left">
                   <p className="font-medium text-foreground">Phone</p>
                   <a 
                     href={`https://wa.me/${portfolioData.personal.phone.replace(/[\s+-]/g, '')}`}
@@ -94,23 +94,24 @@ export const Contact = () => {
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary/30 transition-colors">
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
-                <div>
+                <div className="text-center md:text-left">
                   <p className="font-medium text-foreground">Location</p>
                   <p className="text-muted-foreground">{portfolioData.personal.location}</p>
                 </div>
               </div>
             </div>
 
-            <div className="pt-8">
+
+            {/* <div className="pt-8">
               <h4 className="font-semibold text-foreground mb-4">Response Time</h4>
               <p className="text-sm text-muted-foreground">
                 I typically respond to messages within 24 hours during business days.
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Form */}
-          <Card className="p-8 gradient-card border-border shadow-card animate-slide-up" style={{ animationDelay: '0.2s' }}>
+          {/* <Card className="p-8 gradient-card border-border shadow-card animate-slide-up" style={{ animationDelay: '0.2s' }}>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
@@ -186,7 +187,7 @@ export const Contact = () => {
                 Send Message
               </Button>
             </form>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>
