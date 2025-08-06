@@ -74,8 +74,8 @@
       "category": "Backend"
     },
     {
-      "id": 4,
-      "title": "Letter Management System",
+      "id": 5,
+      "title": "Sistem Manajemen Surat",
       "company": "PT Maha Properti Indonesia Tbk",
       "description": "A web-based application designed to replace manual, paper-based letter tracking within a company. This system enables digital logging of incoming and outgoing letters, centralized data management through an admin dashboard, and automatic reporting. As the sole developer, I built the entire system from scratch — including database design, backend and frontend development, and deployment to the company’s production server.",
       "technologies": ["Vue JS", "Laravel", "MySQL"],
@@ -86,6 +86,19 @@
         "/assets/mpro-surat/laporan-staff.png"
       ],
       "featured": false,
+      "category": "Backend"
+    },
+    {
+      "id": 6,
+      "title": "Cek Fisik Digital",
+      "company": "Polres Cimahi - Satlantas",
+      "description": "Cek Fisik Digital - PERCIK is a web-based vehicle inspection system built for Polres Cimahi, integrating Redis, OCR for license plate recognition, SRS for CCTV streaming, and VTEQ machines for vehicle diagnostics. As a full-stack developer (Laravel & Vue.js), I improved form printing accuracy, fixed data issues in inspection reports, resolved video player bugs, added image cropping for captured frames, and implemented historical vehicle data reuse. I also integrated log processing from VTEQ machines and optimized system performance for better usability.",
+      "technologies": ["Vue JS", "Laravel", "MySQL"],
+      "images": [
+        "/assets/percik/dashboard.png",
+        "/assets/percik/blangko-preview.png"
+      ],
+      "featured": true,
       "category": "Backend"
     }
   ],
