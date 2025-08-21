@@ -37,15 +37,6 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-20 px-6">
       <div className="max-w-6xl mx-auto px-25">
-        {/* <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Let's <span className="gradient-accent bg-clip-text text-transparent">Connect</span>
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to discuss your next project or explore collaboration opportunities?
-          </p>
-        </div> */}
-
         <div className="grid">
           {/* Contact Information */}
           <div className="space-y-8 animate-slide-up">

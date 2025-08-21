@@ -59,7 +59,12 @@
       "company": "Enesis Group",
       "description": "Developed and maintained the Enesis Integrated System (EIS) using Laravel, Vue.js, and Node.js. Handled data integration from SOAP-based services and built support tools for managing EIS master data effectively.",
       "technologies": ["Vue JS", "React JS", "Laravel", "MySQL", "PostgreSQL", "SQL Server"],
-      "images": ["/assets/eis/login-page.png"],
+      "images": [
+        "/assets/eis/login-page.png",
+        "/assets/eis/klaim.jpg",
+        "/assets/eis/detail-klaim.jpg",
+        "/assets/eis/detail-tdo.png"
+      ],
       "featured": true,
       "category": "Full-Stack"
     },
@@ -96,6 +101,8 @@
       "technologies": ["Vue JS", "Laravel", "Redist", "SRS", "MySQL"],
       "images": [
         "/assets/percik/dashboard.png",
+        "/assets/percik/pc-vteq.jpg",
+        "/assets/percik/mesin-vteq.jpg",
         "/assets/percik/blangko-preview.png"
       ],
       "featured": true,
